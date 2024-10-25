@@ -1,0 +1,252 @@
+main {
+  background-color: #eee;
+  margin: -10px;
+}
+.home {
+  margin: 216px 120px;
+  background-color: #fff;
+}
+.home h1 {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 75px;
+}
+.home p {
+  font-size: 28px;
+}
+.home span img {
+  display: inline;
+  width: 713px;
+  margin: -359px 70px 0px 600px;
+}
+.home button {
+  width: 184px;
+  height: 45px;
+  border-radius: 50px;
+  border-style: hidden;
+  background-color: #3257cc;
+  color: #fff;
+  font-size: 20px;
+  margin-top: -16px;
+  /* margin-right: 150px; */
+  margin-left: 48px;
+}
+.home button:hover {
+  background-color: rgb(13, 140, 213);
+}
+.home button:active {
+  background-color: #1e14d8;
+}
+.about {
+  margin: 0px 142px;
+  padding: 89px 0px;
+}
+.about h2 {
+  font-size: 44px;
+}
+.about p {
+  width: 550px;
+  font-size: 27px;
+  padding: 51px 0px;
+}
+.about img {
+  width: 650px;
+  display: inline;
+  margin: -592px 70px 0px 640px;
+}
+.vision {
+  margin: 0px 142px;
+  padding: 89px 0px;
+}
+.vision h2 {
+  font-size: 44px;
+}
+.vision p {
+  width: 550px;
+  font-size: 27px;
+  padding: 51px 0px;
+}
+.vision img {
+  width: 750px;
+  display: inline;
+  margin: -500px 80px 100px 540px;
+}
+
+.services {
+  margin: 0px 142px;
+  padding: 89px 0px;
+}
+.services h2 {
+  font-size: 52px;
+}
+.services img {
+  width: 180px;
+  margin: 80px 115px 175px;
+}
+.services h4 {
+  /* display: inline; */
+  padding: 100px 75px;
+  margin: -100px 5px;
+}
+/* .services, .web, .marketing, .video, .data, .design, .social {
+    display: flex;
+    margin: 150px 0px;
+}  */
+/* .card {
+  background-color: #fff;
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+  width: 329px;
+  height: 210px;
+  border-radius: 17px;
+}
+.card-text {
+  width: 300px;
+  height: 20px;
+  font-size: 18px;
+  margin: 21px 15px;
+} 
+.stars img {
+  margin: 43px -154px 0px 158px;
+  width: 19px;
+}
+.photo h4 {
+  display: inline;
+  font-size: 20px;
+  margin: -123px 18px -83px;
+}
+.photo img {
+  width: 53px;
+  height: 51px;
+  border-radius: 50%;
+  padding-bottom: 24px;
+  margin: 7px 16px -34px 15px;
+}  */
+.send h2 {
+  font-size: 44px;
+  margin-bottom: 85px;
+  margin-left: -71px;
+}
+.send input {
+  width: 409px;
+  height: 62px;
+  border-top: hidden;
+  border-left: hidden;
+  border-bottom: revert;
+  border-right: hidden;
+  font-size: 17px;
+  outline: 0px;
+  display: block;
+  padding: 5px 24px;
+  margin: 32px -45px;
+  background-color: #eee;
+}
+.send {
+  margin: 144px 116px 0px 51px;
+}
+textarea {
+  width: 417px;
+  margin-left: -46px;
+  height: 150px;
+  border-style: revert;
+  border-radius: 11px;
+  padding: 16px 20px;
+  font-size: 17px;
+  border: #1e14d8;
+}
+.send .submit {
+  width: 188px;
+  border-radius: 50px;
+  border: hidden;
+  background-color: #3257cc;
+  color: #fff;
+  height: 50px;
+  margin: 71px 52px 0px;
+}
+.send .submit:hover {
+  background-color: rgb(13, 140, 213);
+}
+.send .submit:active {
+  background-color: #1e14d8;
+}
+
+.send img {
+  width: 700px;
+  margin: -981px 0px 160px 600px;
+}
+
+footer {
+  background-color: #1e2228;
+  margin: -50px;
+}
+footer .fooo img {
+  width: 105px;
+  margin: 46px 89px 23px;
+}
+footer .fooo h4 {
+  margin: -21px 103px 50px;
+  font-size: 35px;
+  color: #fff;
+}
+
+footer .fooo p {
+  margin: -32px 98px;
+  color: #7e8288;
+  font-size: 18px;
+}
+hr {
+  width: 1400px;
+  margin-top: 89px;
+}
+.copy {
+  margin: 80px 89px 31px;
+  color: #fff;
+  padding: 1px 0px 21px;
+  text-align: center;
+}
+.copy u {
+  font-size: 21px;
+  font-family: Cairo, sans-serif;
+}
+.Contact_us {
+  font-family: Cairo, sans-serif;
+  line-height: 1.4rem;
+  margin: 110px 104px;
+}
+.Contact_us h4 {
+  font-size: 1.2rem;
+  color: #fff;
+}
+.Contact_us p {
+  color: #7e8288;
+}
+.links {
+  min-height: 10rem;
+  background-color: #1e2228;
+  color: #7e8288;
+  padding-top: 69px !important;
+  display: grid;
+  grid-template-columns: 350px 230px;
+  margin: -407px 0px 0px 676px;
+}
+.links h4 {
+  display: block;
+  font-size: 1.2rem;
+  font-family: Cairo, sans-serif;
+  padding: 0px;
+}
+.links a {
+  color: #7e8288;
+  text-decoration: none;
+  font-size: 1.2rem;
+  display: block;
+}
+.links h4 {
+  margin: -22px 0px 0px;
+  font-size: 1.2rem;
+  color: #fff;
+}
+.social_links a{
+  padding: 0px 15px;
+  color: #fff;
+  /* margin: -114px 0px; */
+  font-size: 18px;
+}
